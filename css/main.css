@@ -97,14 +97,14 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: rgb(161, 10, 111);
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family:'Quicksand', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
 }
 
@@ -122,10 +122,14 @@ body {
   justify-content: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.2em;
   height: 300px;
   align-items: center;
+  text-align: center;
+  border: white solid;
+  border-width: thick;
+  background-color: #3e216d;
+  padding: 3%;
 }
 
 
