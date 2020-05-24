@@ -123,7 +123,7 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.2em;
-  height: 300px;
+  height: 300px auto;
   align-items: center;
   text-align: center;
   border: white solid;
@@ -132,8 +132,22 @@ body {
   padding: 3%;
 }
 
+header
+footer
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:white solid;
+  border-width: thick;
+}
 
-
+main{
+  border:white solid thick;
+  background:lightpink;
+  height: 150px auto;
+  padding: 2%;
+}
 
 /* ==========================================================================
    Helper classes
